@@ -1,0 +1,13 @@
+[package]
+name        = "c"
+version     = "0.2.0"
+edition     = "2021"
+description = "Dao Hieu Calc"
+
+[dependencies]
+ratatui   = "0.28"
+crossterm = "0.27"
+
+[[bin]]
+name = "c"
+path = "src/main.rs"
